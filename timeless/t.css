@@ -1,0 +1,92 @@
+@media screen and (max-width:1200px) {
+    .container {
+        max-width:1170px;
+    }
+    .video-container {
+       max-width: 1170px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    
+    .video-container {
+        max-width: 750px;
+        max-height: 450px;
+    }   
+    .leftbar,
+    .rightbar {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .header-h1
+    {
+        margin-left: 25px;
+    }
+    .map,
+    .contact {
+        max-width: 100%;
+    }
+    .map-iframe {
+        max-width: 100%;
+    }
+    .video-container {
+        max-width: 690px;
+        max-height: 345px;
+    }
+    .time-item {
+        margin-left: 0px;
+    }
+    .timebox {
+        flex-direction: column;
+    }
+    .connecter {
+        width: 3px;
+        height: 55px;
+    }
+    .time-connector {
+        height: 55px;
+        width: 3px;
+        
+    }
+    .time-description {
+        max-width: 520px;
+    }
+    .header-h1 {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .container {
+        max-width: 540px;
+    }
+    .section {
+        flex-direction: column;
+        width: 250%;
+        padding: 15px 25px;
+    }
+    .time-description {
+        max-width: 480px;
+    }
+    .border {
+        margin-left: 80px;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    
+   
+    .video-container {
+        overflow-x: hidden;
+    }
+    .welcome-video {
+        min-width: auto;
+        max-width: 130%;
+    }
+    
+    
+}
