@@ -1,0 +1,41 @@
+@media screen and (max-width:1025px) {
+    .main{
+        width: 790px;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .main{
+        width: 590px;
+    }
+    .leftbar,
+    .rightbar{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:610px){
+    .main{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }    
+    .leftbar,
+    .rightbar{
+        float: none;
+        width: 100%;
+    }
+}
+@media screen and (max-width:335px) {
+    .main{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .header h1
+    {
+        font-size: 25px;
+    }
+    
+}
