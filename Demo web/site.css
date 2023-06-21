@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    background-image: url(img/body-bg.jpg);
+    background-size: cover;
+}
+.main
+{
+    width: 1000px;
+    margin: auto;
+}
+.header
+{
+    padding: 30px 0;
+    color: #fff;
+}
+.header h4
+{
+    padding-top: 10px;
+}
+.header::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+.menu
+{
+    background-image: url(img/nav-bar-bg.png);
+    border-radius: 7px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.menu ul li
+{
+    float: left;
+    list-style: none;
+}
+.menu ul li a
+{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li a:hover
+{
+    background-color: rgb(126, 126, 126);
+}
+.menu ul li:first-child {
+    margin-left: 10px;
+}
+.searchbtn
+{
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    border: 1px solid #fff;
+}
+.toggleMenu {
+    position: absolute;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #858585;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    right: 40px;
+    top: -30px;
+    cursor: pointer;
+}
+
+#chk1 {
+    display: none;
+}
+.menu::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+.left
+{
+    width: 680px;
+    float: left;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.blog
+{
+    padding: 30px;
+}
+.blog p
+{
+    line-height: 20px;
+}
+.blog a
+{
+    text-decoration: none;
+}
+.blog img
+{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+.blog iframe
+{
+    width: 100%;
+    height: 400px;
+}
+.right
+{
+    width: 280px;
+    float: right;
+}
+.sidebar
+{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.sidebar h2
+{
+    padding: 16px;
+}
+.sidebar ul li
+{
+    list-style: none;
+    padding: 10px 0;
+    margin-left: 20px;
+    border-top: solid 1px rgb(219, 215, 215);
+}
+.sidebar ul li a
+{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.content::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+.footer
+{
+    padding: 10px 0;
+    color: #fff;
+    margin: 00px;
+}
+.footer a
+{
+    color: #fff;
+}
+
+.footer::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}

@@ -1,0 +1,57 @@
+@media screen and (max-width:1020px) {
+    .main{
+        width: 750px;
+    }
+    .left {
+        width: 50%;
+    }
+    .right {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .main{
+        width: 560px;
+    }
+    .searchbtn {
+        top: -70px;
+    }
+    .searchbtn input {
+        width: 80px;
+    }
+    
+}
+
+@media screen and (max-width:580px) {
+    .main {
+        width: 100%;
+    }
+    .left,
+    .right {
+        float: none;
+    }
+    .right {
+        margin-top: 30px;
+    }
+    .toggleMenu {
+        display: inline-block;
+    }
+    .menu ul li {
+        float: none;
+    }
+    .menu ul li:first-child {
+        margin: 0;
+    }
+    .menu {
+        background-repeat: repeat-x;
+    }
+    .menu ul {
+        display: none;
+        padding: 10px 0;
+    }
+    #chk1:checked+ul {
+        display: block;
+    }
+    
+}
