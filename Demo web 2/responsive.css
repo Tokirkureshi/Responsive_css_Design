@@ -1,0 +1,68 @@
+@media screen and (max-width:1190px) {
+    .container {
+        width: 94%;
+    }
+    .menu ul li a {
+        padding: 0 8px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navbar .logo {
+        float: none;
+        padding-left: 35%;
+    }
+    .menu {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .menu li{
+        float:none;
+        padding:10px 0;
+        text-align: center;
+        border-bottom:solid 1px gray;
+    } 
+
+    .menu ul li a{
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .home {
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .home img {
+        float: none;
+        width: 85%;
+        padding-left: 10%;
+        display: block;
+    }
+    .home .home-caption {
+        float: none;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .template .templatebox {
+        float: none;
+        width: 100%;
+    }
+    .portfolio .projectbox {
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .portfolio img {
+        float: none;
+        width: 100%;
+    }
+    .services .servicebox {
+        float: none;
+        width: 80%;
+    }
+}

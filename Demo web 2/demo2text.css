@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777575;
+    font-weight: normal;
+}
+.main
+{
+    width: 100%;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.header {
+    background-color: white;
+}
+
+.navbar {
+    padding: 30px 0;
+}
+
+.navbar .logo {
+    font-size: 35px;
+    color: red;
+    text-decoration: none;
+    float: left;
+}
+
+.navbar span {
+    color: #ccc;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 12px;
+    font-size: 20px;
+}
+
+.menu li.search a {
+    border-left: 1px solid black;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.navbar::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.home {
+    height: 410px;
+    background-color: rgb(179, 188, 197);
+    position: relative;
+}
+
+.home img {
+    float: right;
+    width: 35%;
+}
+
+.home .home-caption {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container::after {
+    /* clear: both; */
+    content: "";
+    display: block;
+}
+
+.home .home-caption h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.home .home-caption h1 span {
+    font-weight: bold;
+}
+
+.home .home-caption1 p {
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.btn {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+.btn.btn-green {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+.home .home-caption .btn {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.home::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.navigate {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+}
+
+.home .navigate i {
+    line-height: 40px;
+}
+
+.home .left.navigate {
+    left: 10px;
+}
+
+.home .right.navigate {
+    right: 10px;
+}
+
+.content {
+    padding: 10px 0;
+    background-color: white;
+}
+
+.template .templatebox {
+    width: 33.33333333333333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+
+.template {
+    margin: 0 -15px;
+    margin-bottom: 40px;
+}
+
+.template .templatebox i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.template .templatebox h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 50px;
+}
+
+.template .templatebox p {
+    margin-top: 10px;
+    line-height: 16px;
+    text-align: justify;
+}
+
+.content::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.title {
+    background-color: gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title h1 {
+    display: inline-block;
+    font-weight: lighter;
+    color: white;
+    padding-top: 20px;
+}
+
+.btn.btn-inverse {
+    border: 2px solid white;
+    color: white;
+}
+
+.title .btn {
+    float: right;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.portfolio {
+    padding: 30px 0;
+}
+
+.portfolio .projectbox {
+    width: 25%;
+    float: left;
+}
+
+.projectbox h1 {
+    font-weight: lighter;
+}
+
+.projectbox p {
+    margin-top: 10px;
+}
+
+.portfolio .imgbox {
+    padding: 0 9px;
+    float: left;
+}
+
+.imgbox h1 {
+    font-weight: lighter;
+}
+
+.portfolio::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.services {
+    margin: 0 -15px;
+    overflow: hidden;
+}
+
+.services .servicebox {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+
+.servicebox .box {
+    padding: 30px;
+    color: white;
+    position: relative;
+}
+
+.servicebox .box h1 {
+    font-weight: lighter;
+}
+
+.servicebox span {
+    position: absolute;
+    right: -10px;
+    font-size: 120px;
+    color: rgb(238, 127, 91);
+    top: -3px;
+
+}
+
+.servicebox.orange {
+    background-color: orange;
+}
+
+
+.servicebox.gray1 {
+    background-color: rgb(111, 110, 110);
+}
+
+
+
+.servicebox.gray {
+    background-color: rgb(76, 75, 75);
+}
+
+.servicebox:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 10px;
+    right: -30px;
+    width: 10px;
+    top: 30px;
+    border-top: 20px solid rgba(0, 0, 0, 0);
+    border-bottom: 20px solid rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+
+.servicebox.orange:after {
+    border-left: 20px solid orange;
+}
+
+
+.servicebox.gray1:after {
+    border-left: 20px solid rgb(125, 124, 124);
+}
+
+.services:after {
+    content: "";
+    clear: both;
+    display: block;
+}
